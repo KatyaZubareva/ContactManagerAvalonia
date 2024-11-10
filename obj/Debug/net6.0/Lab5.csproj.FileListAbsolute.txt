@@ -1,0 +1,2 @@
+/Users/katyazubareva/Desktop/ПРОГА/C#/Lab5/obj/Debug/net6.0/Lab5.csproj.AssemblyReference.cache
+/Users/katyazubareva/Desktop/ПРОГА/C#/Lab5/obj/Debug/net6.0/Avalonia/Resources.Inputs.cache

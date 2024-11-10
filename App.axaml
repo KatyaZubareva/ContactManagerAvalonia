@@ -1,0 +1,19 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="Lab5.App"
+             RequestedThemeVariant="Default">
+    <Application.Styles>
+    <FluentTheme />
+    <Style Selector="TextBox">
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="Width" Value="200"/>
+    </Style>
+    <DataTemplate DataType="{x:Type local:Contact}">
+        <StackPanel>
+            <TextBlock Text="{Binding Name}"/>
+            <TextBlock Text="{Binding Email}"/>
+            <TextBlock Text="{Binding Phone}"/>
+        </StackPanel>
+    </DataTemplate>
+</Application.Styles>
+</Application>
